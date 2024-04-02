@@ -4,7 +4,7 @@ body{
 }
 
 .header1 {
-    background-image: url(../../blog_1/img/kissheader.jpg);
+    background-image: url(../blog_1/img/kissheader.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -285,7 +285,7 @@ button {
 }
 
 .blog_1 {
-    background-image: url(../../blog_1/img/kissofmatcha2.jpg);
+    background-image: url(../blog_1/img/kissofmatcha2.jpg);
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -295,7 +295,7 @@ button {
 }
 
 .blog_2 {
-    background-image: url(../../blog_2/img/maruwuseicha2.jpg);
+    background-image: url(../blog_2/img/maruwuseicha2.jpg);
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -305,7 +305,7 @@ button {
 }
 
 .blog_3 {
-    background-image: url(../../blog_3/img/stonemillmatcha1.jpg);
+    background-image: url(../blog_3/img/stonemillmatcha1.jpg);
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -315,7 +315,7 @@ button {
 }
 
 .blog_4 {
-    background-image: url(../../blog_4/img/ashateahouse1.jpg);
+    background-image: url(../blog_4/img/ashateahouse1.jpg);
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -325,7 +325,7 @@ button {
 }
 
 .blog_5 {
-    background-image: url(../../blog_5/img/fiftyfifty3.jpg);
+    background-image: url(../blog_5/img/fiftyfifty3.jpg);
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -335,7 +335,7 @@ button {
 }
 
 .blog_6 {
-    background-image: url(../../blog_6/img/matchacafemaiko2.jpg);
+    background-image: url(../blog_6/img/matchacafemaiko2.jpg);
     background-size: cover;
     background-position: center;
     height: 900px;
