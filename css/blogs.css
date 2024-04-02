@@ -1,0 +1,492 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header1 {
+    background-image: url(../../blog_1/img/kissheader.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header2 {
+    background-image: url(../blog_2/img/maruwuheader.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    height: 100vh;
+    width: 100%;
+    padding: 0; 
+}
+
+.header3 {
+    background-image: url(../blog_3/img/stonemillheader.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header4 {
+    background-image: url(../blog_4/img/ashaheader.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header5 {
+    background-image: url(../blog_5/img/fiftyfiftyheader.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header6 {
+    background-image: url(../blog_6/img/maikoheader.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    font-family: "linotype-didot-headline", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+    width: 100%;
+    padding-top: 20px;
+}
+
+h1{
+    font-family: "linotype-didot-headline", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0D260E;
+    font-size: 60px;
+    text-align: left;
+}
+
+h3{
+    font-family: "linotype-didot", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0D260E;
+    text-align: center;
+    font-size: 45px;
+}
+
+a h4{
+    font-family: "linotype-didot", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0D260E;
+    font-size: 30px;
+    text-align: left;
+    padding: 10px 0px 5px 200px; 
+    margin:0;
+}
+
+a h4:hover{
+    color:#558c2e;
+}
+
+h5{
+    font-family: "linotype-didot", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0D260E;
+    font-size: 30px;
+    text-align: right;
+    padding: 10px 200px 5px 0px; 
+    margin:0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;  
+    border: none;
+}
+
+.rating {
+    grid-column: 2;
+}
+
+p{
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    color: #0D260E;
+    text-align: left;
+    padding: 0px 150px 0px 150px;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.ranks{
+    font-family: "linotype-didot", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0D260E;
+    text-align: center;
+    font-size: 45px;
+    padding: 100px 0px 0px 0px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    column-gap: auto;
+    padding: 150px 100px 0px 100px;
+}
+
+button a{
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    color: #0D260E;
+    padding: 15px 32px;
+}
+
+button a:hover{
+    color: white;
+}
+
+button:hover {
+    background-color: #0D260E;
+    cursor: pointer;
+}
+
+button {
+    background-color: white;
+    border: #0D260E 2px solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.location img{
+    width: auto;
+    height: 480px;
+    padding: 0;
+    width: 400px;
+    height: auto;
+    padding: 200px 0px 200px 0px;
+    flex-grow: 1; /* Take remaining space */
+    margin-left: auto; /* Align to the right */
+}
+
+.location p{
+    padding: 0px 50px 0px 50px;
+    text-align: left;
+}
+
+.location h3{
+    padding: 0px 50px 0px 50px;
+    text-align: left;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.locationdetail{
+    width: 50%;
+    padding: 150px 50px 150px 50px;
+    position: relative;
+}
+
+.ambiance img{
+    width: 50%;
+    height: auto;
+    padding: 0;
+    margin:0;
+}
+
+.ambiance p{
+    padding: 0px 100px 0px 100px;
+    text-align: right;
+}
+
+.ambiance h3{
+    padding: 0px 100px 0px 100px;
+    text-align: right;
+}
+
+.ambiance{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.text1{
+    width: 50%;
+}
+
+.flavortexture img{
+    width: 400px;
+    height: auto;
+    padding: 200px 0px 200px 0px;
+    flex-grow: 1; /* Take remaining space */
+    margin-left: auto; /* Align to the right */
+}
+
+.flavortexture p{
+    padding: 0px 100px 0px 100px;
+}
+
+.flavortexture h3{
+    padding: 0px 100px 0px 100px;
+    text-align: left;
+}
+
+.flavortexture{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.text2{
+    width: 50%;
+}
+
+.blog_1 {
+    background-image: url(../../blog_1/img/kissofmatcha2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.blog_2 {
+    background-image: url(../../blog_2/img/maruwuseicha2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.blog_3 {
+    background-image: url(../../blog_3/img/stonemillmatcha1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.blog_4 {
+    background-image: url(../../blog_4/img/ashateahouse1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.blog_5 {
+    background-image: url(../../blog_5/img/fiftyfifty3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.blog_6 {
+    background-image: url(../../blog_6/img/matchacafemaiko2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+article h1{
+    font-family: "linotype-didot-headline", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    font-size: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: nowrap;
+    padding-top: 280px;
+    margin: 0;
+}
+
+article h2{
+    font-family: "linotype-didot-headline", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    font-size: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+}
+
+.top button{
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    color: #0D260E;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 100px;
+    line-height: 2;
+    font-size: 20px;
+    border: black 0.5px solid;
+    background-color: white;
+}
+
+.top button:hover{
+    color: white;
+    background-color: #0D260E;
+    cursor: pointer;
+}
+
+.finalnotes p{
+    padding: 100px 300px 200px 300px;
+    font-size: 20px;
+}
+
+footer {
+    background-image: url(../../img/footer.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer p {
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: white;
+    padding: 0 20px;
+    flex: 2; /* Takes up 2/3 of the space */
+    text-align: center;
+}
+
+.contact h3 {
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot a {
+    margin: 0 10px; 
+    cursor: pointer;
+}
+
+.foot a:hover{
+    opacity: 50%;
+}
+
+.foot img {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    padding: 50px 20px 50px 20px;
+}
+
+.foot::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: calc(2/3 * 100%);
+    width: 3px;
+    height: 80%;
+    background-color: white; 
+}

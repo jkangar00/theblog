@@ -1,0 +1,655 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../img/mainpagetitle1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    align-items: center;
+}
+
+a{
+    font-family: "linotype-didot-headline", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #0D260E;
+    background-color: transparent;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+    width: 100%;
+    padding-top: 20px;
+}
+
+article{
+    padding: 100px 50px 100px 50px;
+    position: relative;
+}
+
+h1{
+    font-family: "linotype-didot-headline", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #0D260E;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+h3{
+    font-family: "linotype-didot", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0D260E;
+    text-align: center;
+    font-size: 45px;
+}
+
+p{
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    color: #0D260E;
+    text-align: center;
+    padding: 0px 150px 0px 150px;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.about img{
+    width: auto;
+    height: 480px;
+    padding: 0;
+}
+
+.about p{
+    padding:0;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.matchabowl{
+    width: 50%;
+    margin: 0 100px 0px 100px;
+}
+
+.aesthetic{
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.aesthetic img{
+    width: max-content;
+    height: auto;
+    margin: 100px 15px 100px 15px;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.ranking{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.ranking h3{
+    padding: 0px 0px 50px 0px;
+}
+
+#blogs{
+    padding-top: 100px;
+}
+
+/* Kiss of Matcha styles*/
+.title1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    padding: 100px 0px 50px 0px;
+}
+
+.title1 article {
+    flex-grow: 1;
+}
+
+.title1 article h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kiss {
+    position: relative;
+    max-width: 50%; 
+}
+
+.kiss .text1 {
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #0D260E;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    background-color: none;
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+.kiss:hover .text1 {
+    opacity: 1; 
+}
+
+.kiss a img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.kiss:hover a{
+    background-color: white;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.kiss .text1:hover {
+    opacity: 1; 
+}
+
+/* Maruwu Seicha styles*/
+
+.title2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    padding: 100px 0px 50px 0px;
+}
+
+.title2 article {
+    flex-grow: 1;
+}
+
+.title2 article h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maruwu {
+    position: relative;
+    max-width: 50%; 
+}
+
+.maruwu .text2 {
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #0D260E;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    background-color: none;
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+.maruwu:hover .text2 {
+    opacity: 1; 
+}
+
+.maruwu a img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.maruwu:hover a{
+    background-color: white;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.maruwu .text2:hover {
+    opacity: 1; 
+}
+
+/* Stonemill styles*/
+
+.title3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    padding: 100px 0px 50px 0px;
+}
+
+.title3 article {
+    flex-grow: 1;
+}
+
+.title3 article h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stonemill {
+    position: relative;
+    max-width: 50%; 
+}
+
+.stonemill .text3 {
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #0D260E;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    background-color: none;
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+.stonemill:hover .text3 {
+    opacity: 1; 
+}
+
+.stonemill a img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.stonemill:hover a{
+    background-color: white;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.stonemill .text3:hover {
+    opacity: 1; 
+}
+
+/* Asha Tea House styles*/
+
+.title4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    padding: 100px 0px 50px 0px;
+}
+
+.title4 article {
+    flex-grow: 1;
+}
+
+.title4 article h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.asha {
+    position: relative;
+    max-width: 50%; 
+}
+
+.asha .text4 {
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #0D260E;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    background-color: none;
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+.asha:hover .text4 {
+    opacity: 1; 
+}
+
+.asha a img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.asha:hover a{
+    background-color: white;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.asha .text4:hover {
+    opacity: 1; 
+}
+
+/* fifty/fifty styles*/
+
+.title5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    padding: 100px 0px 50px 0px;
+}
+
+.title5 article {
+    flex-grow: 1;
+}
+
+.title5 article h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifty {
+    position: relative;
+    max-width: 50%; 
+}
+
+.fifty .text5 {
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #0D260E;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    background-color: none;
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+.fifty:hover .text5 {
+    opacity: 1; 
+}
+
+.fifty a img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.fifty:hover a{
+    background-color: white;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.fifty .text5:hover {
+    opacity: 1; 
+}
+
+/* Matcha Cafe Maiko styles*/
+
+.title6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    padding: 100px 0px 150px 0px;
+}
+
+.title6 article {
+    flex-grow: 1;
+}
+
+.title6 article h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maiko {
+    position: relative;
+    max-width: 50%; 
+}
+
+.maiko .text6 {
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #0D260E;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    background-color: none;
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+.maiko:hover .text6 {
+    opacity: 1; 
+}
+
+.maiko a img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.maiko:hover a{
+    background-color: white;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.maiko .text6:hover {
+    opacity: 1; 
+}
+
+a{
+    display: flex;
+    justify-content: center;
+}
+
+a button{
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    color: #0D260E;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 100px;
+    line-height: 2;
+    font-size: 20px;
+    border: black 0.5px solid;
+    background-color: white;
+}
+
+a button:hover{
+    color: white;
+    background-color: #0D260E;
+    cursor: pointer;
+}
+
+footer {
+    background-image: url(../../img/footer.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer p {
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: white;
+    padding: 0 20px;
+    flex: 2; /* Takes up 2/3 of the space */
+    text-align: center;
+}
+
+.contact h3 {
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot a {
+    margin: 0 10px; 
+    cursor: pointer;
+}
+
+.foot a:hover{
+    opacity: 50%;
+}
+
+.foot img {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    padding: 50px 20px 50px 20px;
+}
+
+.foot::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: calc(2/3 * 100%);
+    width: 3px;
+    height: 80%;
+    background-color: white; 
+}

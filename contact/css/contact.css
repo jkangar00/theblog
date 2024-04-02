@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../img/contacttitle.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    align-items: center;
+}
+
+h1{
+    font-family: "linotype-didot-headline", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0D260E;
+    font-size: 60px;
+    text-align: center;
+}
+
+a{
+    font-family: "linotype-didot-headline", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #0D260E;
+    background-color: transparent;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+    width: 100%;
+    padding-top: 20px;
+}
+
+label{
+    font-family: "linotype-didot-headline", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+p {
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #0D260E;
+    padding: 0 20px;
+    text-align: center;
+}
+  
+.container {
+    max-width: 60%;
+    height: 100% vh;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 50px 0px 100px 0px;
+    border-radius: 8px;
+}
+  
+h2 {
+    text-align: center;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+label {
+    margin-bottom: 5px;
+}
+  
+input[type="text"],
+input[type="email"],
+textarea {
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #0D260E;
+    padding: 0 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: black 0.5px solid;
+}
+
+textarea{
+    height: 150px;
+}
+  
+input[type="submit"] {
+    font-family: "linotype-didot-headline", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 10px;
+    background-color: white;
+    color: #0D260E;;
+    border: black 0.5px solid;
+    cursor: pointer;
+}
+  
+input[type="submit"]:hover {
+    color: white;
+    background-color: #0D260E;;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+}
+
+a button{
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    color: #0D260E;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 100px;
+    line-height: 2;
+    font-size: 20px;
+    border: black 0.5px solid;
+    background-color: white;
+}
+
+a button:hover{
+    color: white;
+    background-color: #0D260E;
+    cursor: pointer;
+}
+
+footer {
+    background-image: url(../../img/footer.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer p {
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: white;
+    padding: 0 20px;
+    flex: 2; /* Takes up 2/3 of the space */
+    text-align: center;
+}
+
+.contact h3 {
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot a {
+    margin: 0 10px; 
+    cursor: pointer;
+}
+
+.foot a:hover{
+    opacity: 50%;
+}
+
+.foot img {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    padding: 50px 20px 50px 20px;
+}
+
+.foot::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: calc(2/3 * 100%);
+    width: 3px;
+    height: 80%;
+    background-color: white; 
+}
