@@ -198,15 +198,11 @@ button {
     display: inline-block;
 }
 
-.location img{
-    width: auto;
-    height: 480px;
+.location iframe{
+    height: 600px;
+    width: 50%;
+    margin: 0;
     padding: 0;
-    width: 400px;
-    height: auto;
-    padding: 200px 0px 200px 0px;
-    flex-grow: 1; /* Take remaining space */
-    margin-left: auto; /* Align to the right */
 }
 
 .location p{
