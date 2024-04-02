@@ -393,6 +393,7 @@ article h2{
     text-align: center;
     padding: 20px 20px 20px 20px;
     margin-bottom: 100px;
+    margin-top:0;
     line-height: 2;
     font-size: 20px;
     border: black 0.5px solid;
