@@ -79,13 +79,32 @@ p{
 }
 
 .about img{
-    width: auto;
-    height: 480px;
+    width: 50%;
+    height: auto;
     padding: 0;
+    margin-bottom: 20px;
+}
+
+.about h1{
+    padding:0;
+    padding-bottom: 40px;
+    margin: 0;
+    text-align: left;
+    justify-content: left;
+}
+
+.about h3{
+    padding:0;
+    padding-bottom: 10px;
+    margin: 0;
+    text-align: left;
+    font-size: 35px;
 }
 
 .about p{
     padding:0;
+    margin: 0;
+    text-align: left;
 }
 
 .about{
@@ -97,7 +116,7 @@ p{
 
 .matchabowl{
     width: 50%;
-    margin: 0 100px 0px 100px;
+    margin: 0 0px 0px 50px;
 }
 
 .aesthetic{
@@ -115,7 +134,7 @@ p{
 .aesthetic img{
     width: max-content;
     height: auto;
-    margin: 100px 15px 100px 15px;
+    margin: 100px 15px 70px 15px;
     padding: 0;
     max-width: 100%;
     overflow-x: hidden;
@@ -134,7 +153,7 @@ p{
 }
 
 #blogs{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 /* Kiss of Matcha styles*/
@@ -144,7 +163,7 @@ p{
     flex-wrap: nowrap;
     align-items: center;
     position: relative;
-    padding: 100px 0px 50px 0px;
+    padding: 100px 0px 0px 0px;
 }
 
 .title1 article {
@@ -162,7 +181,7 @@ p{
 
 .kiss {
     position: relative;
-    max-width: 50%; 
+    max-width: 40%; 
 }
 
 .kiss .text1 {
@@ -213,7 +232,7 @@ p{
     flex-wrap: nowrap;
     align-items: center;
     position: relative;
-    padding: 100px 0px 50px 0px;
+    padding: 50px 0 0 0;
 }
 
 .title2 article {
@@ -231,7 +250,7 @@ p{
 
 .maruwu {
     position: relative;
-    max-width: 50%; 
+    max-width: 40%; 
 }
 
 .maruwu .text2 {
@@ -282,7 +301,7 @@ p{
     flex-wrap: nowrap;
     align-items: center;
     position: relative;
-    padding: 100px 0px 50px 0px;
+    padding: 50px 0 0 0;
 }
 
 .title3 article {
@@ -300,7 +319,7 @@ p{
 
 .stonemill {
     position: relative;
-    max-width: 50%; 
+    max-width: 40%; 
 }
 
 .stonemill .text3 {
@@ -351,7 +370,7 @@ p{
     flex-wrap: nowrap;
     align-items: center;
     position: relative;
-    padding: 100px 0px 50px 0px;
+    padding: 50px 0 0 0;
 }
 
 .title4 article {
@@ -369,7 +388,7 @@ p{
 
 .asha {
     position: relative;
-    max-width: 50%; 
+    max-width: 40%; 
 }
 
 .asha .text4 {
@@ -420,7 +439,7 @@ p{
     flex-wrap: nowrap;
     align-items: center;
     position: relative;
-    padding: 100px 0px 50px 0px;
+    padding: 50px 0 0 0;
 }
 
 .title5 article {
@@ -438,7 +457,7 @@ p{
 
 .fifty {
     position: relative;
-    max-width: 50%; 
+    max-width: 40%; 
 }
 
 .fifty .text5 {
@@ -489,7 +508,7 @@ p{
     flex-wrap: nowrap;
     align-items: center;
     position: relative;
-    padding: 100px 0px 150px 0px;
+    padding: 50px 0 100px 0;;
 }
 
 .title6 article {
@@ -507,7 +526,7 @@ p{
 
 .maiko {
     position: relative;
-    max-width: 50%; 
+    max-width: 40%; 
 }
 
 .maiko .text6 {
