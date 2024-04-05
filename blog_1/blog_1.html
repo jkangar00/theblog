@@ -8,22 +8,46 @@
     <title>Kiss of Matcha</title>
     <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" />
     <link rel="stylesheet" href="../css/blogs.css">
-    <link rel="stylesheet" href="https://use.typekit.net/pbp0sof.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pbp0sof.css">  
 </head>
 
 <body>
     
     <header class="header1" id="top">
 
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="../index.html#blogs">Reviews</a>
-        <a href="../contact/contact.html">Contact</a> 
-    </nav>
+        <nav>
+            <a href="../index.html">Home</a>
+        
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Blogs ⌄</a>
+                <nav class="otherblogs">
+                    <a href="#">Kiss of Matcha</a>
+                    <a href="../blog_2/blog_2.html">Maruwu Seicha</a>
+                    <a href="../blog_3/blog_3.html">Stonemill Matcha</a>
+                    <a href="../blog_4/blog_4.html">Asha Tea House</a>
+                    <a href="../blog_5/blog_5.html">fifty/fifty</a>
+                    <a href="../blog_6/blog_6.html">Matcha Cafe Maiko</a>
+                </nav>
+            </div>
+        
+            <a href="../contact/contact.html">Contact</a>
+        </nav>
+
+        <button>
+            <a href="#ranks">
+                ⌄
+            </a>
+        </button>
 
     </header>  
 
-    <div class="ranks">
+    <div class="buttons">
+        <button>
+            <a href="../blog_2/blog_2.html">Next Review →</a>
+        </button>
+    </div>
+
+    <div id="ranks">
         <h3> 
             Ranking #1  
         </h3>
@@ -35,7 +59,7 @@
                 </a>
             </div>
             <div class="rating">
-                <h5> ✰✰✰✰✰</h5>
+                <h5>✰✰✰✰✰</h5>
             </div>
 
             <div class="name">
@@ -46,7 +70,7 @@
                 </a>
             </div>
             <div class="rating">
-                <h5> $$</h5>
+                <h5>$$</h5><h6>$</h6>
             </div>
 
             <div class="name">
@@ -77,15 +101,6 @@
             <div class="rating">
                 <h5> ✰✰✰✰✰</h5>
             </div>
-        </div>
-        
-        <div class="buttons">
-            <button>
-                <a href="../blog_6/blog_6.html"> ← Ranking #6</a>
-            </button>
-            <button>
-                <a href="../blog_2/blog_2.html">Ranking #2 →</a>
-            </button>
         </div>
     </div>
 
@@ -143,6 +158,7 @@
         <footer>
             <p> 
                 If you’ve made it this far, go out and try some Matcha! (or don’t)
+                <span>&copy;JaneKang</span>
             </p>
             <div class="contact">
                 <h3>Contacts</h3>
@@ -159,7 +175,6 @@
                         <img src="../img/emailicon.png">
                     </a>
                 </section>
-                <p><span>&copy;JaneKang</span></p>
             </div>
         </footer>
 </body>

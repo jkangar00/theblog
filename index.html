@@ -9,20 +9,27 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://use.typekit.net/pbp0sof.css">
     <link rel="stylesheet" href="https://use.typekit.net/pbp0sof.css">
+    <script src="js/index.js"></script>
 </head>
 
 <body>
     
     <Header id="top"> 
         <nav>
-            <a href="#" >Home</a>
+            <a href="#">Home</a>
             <a href="#blogs">Reviews</a>
             <a href="contact/contact.html">Contact</a>
         </nav>
 
+        <button>
+            <a href="#quest">
+                ⌄
+            </a>
+        </button>
+
     </Header>
 
-    <article>
+    <article id="quest">
         <h1>The Quest</h1>
         <h3>Finding the BEST iced oatmilk matcha latte in San Francisco</h3>
         <p>
@@ -59,13 +66,13 @@
                     </p>
             </div>
                 <article>
-                    <h3> Kiss of Matcha </h3>
+                    <a href="blog_1/blog_1.html"><h3> Kiss of Matcha </h3></a>
                 </article>
             </div>
             
             <div class="title2">
                 <article>
-                    <h3> Maruwu Seicha </h3>
+                    <a href="blog_2/blog_2.html"><h3> Maruwu Seicha </h3></a>
                 </article>
                 <div class="maruwu">
                     <a href="blog_2/blog_2.html"><img src="img/maruwuheader.jpg" alt="maruwu seicha"></a>
@@ -83,13 +90,13 @@
                         </p>
                 </div>
                     <article>
-                        <h3> Stonemill Matcha</h3>
+                        <a href="blog_3/blog_3.html"><h3> Stonemill Matcha</h3></a>
                     </article>
                 </div>
             
             <div class="title4">
                 <article>
-                    <h3> Asha Tea House </h3>
+                    <a href="blog_4/blog_4.html"><h3> Asha Tea House </h3></a>
                 </article>
                 <div class="asha">
                     <a href="blog_4/blog_4.html"><img src="img/ashaheader.jpg" alt="asha tea house"></a>
@@ -107,13 +114,13 @@
                         </p>
                 </div>
                     <article>
-                        <h3> fifty/fifty </h3>
+                        <a href="blog_5/blog_5.html"><h3> fifty/fifty </h3></a>
                     </article>
                 </div>
             
             <div class="title6">
                 <article>
-                    <h3> Matcha Cafe Maiko </h3>
+                    <a href="blog_6/blog_6.html"><h3> Matcha Cafe Maiko </h3></a>
                 </article>
                 <div class="maiko">
                     <a href="blog_6/blog_6.html"><img src="img/maikoheader.jpg" alt="Matcha Cafe Maiko"></a>
@@ -125,13 +132,16 @@
 
     </section>
 
-    <a href="#top">
-        <button> Back to the top</button>
-    </a>
+    <div class="buttons">
+        <a href="#top">
+            <button id="backToTopBtn" title="Go to top"> Back to the top</button>
+        </a>
+    </div>
 
     <footer>
         <p> 
             If you’ve made it this far, go out and try some Matcha! (or don’t)
+            <span>&copy;JaneKang</span>
         </p>
         <div class="contact">
             <h3>Contacts</h3>
@@ -148,7 +158,7 @@
                     <img src="img/emailicon.png">
                 </a>
             </section>
-            <p><span>&copy;JaneKang</span></p>
+            
         </div>
         
     </footer>

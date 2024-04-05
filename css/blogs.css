@@ -1,6 +1,85 @@
+*{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
+}
+
+.buttons{
+    display: flex;
+    justify-content: right;
+    column-gap: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.buttons button a{
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    color: #0D260E;
+    padding: 15px 32px;
+}
+
+.buttons button a:hover{
+    color: white;
+}
+
+.buttons button:hover {
+    background-color: #0D260E;
+    cursor: pointer;
+}
+
+.buttons button {
+    background-color: white;
+    border: #0D260E 2px solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+}
+
+.buttons2{
+    display: flex;
+    justify-content: right;
+    column-gap: auto;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.buttons2 button a{
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    color: #0D260E;
+    padding: 15px 32px;
+}
+
+.buttons2 button a:hover{
+    color: white;
+}
+
+.buttons2 button:hover {
+    background-color: #0D260E;
+    cursor: pointer;
+}
+
+.buttons2 button {
+    background-color: white;
+    border: #0D260E 2px solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
 }
 
 .header1 {
@@ -69,21 +148,92 @@ a{
     font-style: normal;
     text-decoration: none;
     font-size: 18px;
-    color: white;
+    color: #0D260E;
     margin: 0;
+    padding:0;
+    position: relative;
+    z-index: 5;
 }
 
-a:hover {
-    color: black;
+a:hover{
+    opacity: 1;
+    color: #558c2e;
     background-color: transparent;
+    z-index: 5;
 }
 
 nav{
     display: flex;
     justify-content: center;
     gap: 100px; 
+    width: 100vw;
+    padding: 20px 0 20px 0;
+    margin: 0;
+    background-color: white;
+    border: black 2px solid;
+}
+
+.dropdown {
+    position: relative; /* Added this line */
+    display: inline-block;
+}
+
+.dropbtn{
+    color: #0D260E;
+}
+
+.otherblogs {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    justify-content: center;
+    align-items: flex-start;
+    top: 0;
+    left: 0;
+    gap: 30px;
+    padding: 75px 0 50px 0;
+    visibility: hidden;
+    background-color: white;
+    border: black 2px solid;
+}
+
+.otherblogs a{
+    color:#0D260E;
+    padding: 10px;
+}
+
+.otherblogs a:hover{
+    color:#558c2e;
+}
+
+.dropbtn:hover + nav, nav:hover{
+    opacity: 1;
+    visibility: visible;
+    color:#558c2e;
+}
+
+header button{
+    background-color: transparent;
+    column-gap: auto;
+    border: none;
+    position: absolute;
+    bottom: 20px;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
     width: 100%;
-    padding-top: 20px;
+}
+
+header button a{
+    font-size: 80px;
+    color: white;
+}
+
+header button a:hover{
+    color: #0D260E;
+    cursor: pointer;
+    z-index: 1;
 }
 
 h1{
@@ -102,6 +252,7 @@ h3{
     color: #0D260E;
     text-align: center;
     font-size: 45px;
+    padding: 100px 0 0 0;
 }
 
 a h4{
@@ -110,9 +261,10 @@ a h4{
     font-style: normal;
     color: #0D260E;
     font-size: 30px;
-    text-align: left;
-    padding: 10px 0px 5px 200px; 
+    text-align: right;
+    justify-content: right;
     margin:0;
+    padding: 0 60px 15px 0;
 }
 
 a h4:hover{
@@ -125,8 +277,18 @@ h5{
     font-style: normal;
     color: #0D260E;
     font-size: 30px;
-    text-align: right;
-    padding: 10px 200px 5px 0px; 
+    text-align: left;
+    margin:0;
+    padding:0 0 15px 60px ;
+}
+
+h6{
+    font-family: "linotype-didot", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(211, 211, 211);
+    font-size: 30px;
+    text-align: left;
     margin:0;
 }
 
@@ -138,6 +300,7 @@ h5{
 
 .rating {
     grid-column: 2;
+    display: flex;
 }
 
 p{
@@ -153,49 +316,13 @@ p{
     font-size: 20px;
 }
 
-.ranks{
+#ranks{
     font-family: "linotype-didot", serif;
     font-weight: 400;
     font-style: normal;
     color: #0D260E;
     text-align: center;
     font-size: 45px;
-    padding: 100px 0px 0px 0px;
-}
-
-.buttons{
-    display: flex;
-    justify-content: space-between;
-    column-gap: auto;
-    padding: 150px 100px 0px 100px;
-}
-
-button a{
-    font-family: "elza-narrow", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 20px;
-    letter-spacing: 2.5px;
-    color: #0D260E;
-    padding: 15px 32px;
-}
-
-button a:hover{
-    color: white;
-}
-
-button:hover {
-    background-color: #0D260E;
-    cursor: pointer;
-}
-
-button {
-    background-color: white;
-    border: #0D260E 2px solid;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
 }
 
 .location iframe{
@@ -396,7 +523,7 @@ article h2{
     margin-top:0;
     line-height: 2;
     font-size: 20px;
-    border: black 0.5px solid;
+    border: black 2px solid;
     background-color: white;
 }
 
@@ -407,9 +534,11 @@ article h2{
 }
 
 .finalnotes p{
-    padding: 100px 150px 100px 150px;
+    padding: 100px 100px 50px 100px;
     font-size: 20px;
+    max-width: 80%;
 }
+
 
 footer {
     background-image: url(../blog_1/img/footer.png);
@@ -424,6 +553,7 @@ footer {
     justify-content: center;
     align-items: center;
     position: relative;
+    z-index: 1;
 }
 
 footer p {
