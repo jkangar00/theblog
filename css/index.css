@@ -212,6 +212,7 @@ p{
 .title1 article h3:hover{
     color:#558c2e;
     cursor: pointer;
+    transition: opacity 0.5s ease;
 }
 
 .kiss {
@@ -234,12 +235,12 @@ p{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: opacity 0.3s ease; 
+    opacity: 0; 
 }
 
 .kiss:hover .text1 {
     opacity: 1; 
+    transition: opacity 0.5s ease;
 }
 
 .kiss a img {
@@ -253,10 +254,12 @@ p{
     background-color: white;
     opacity: 0.3;
     cursor: pointer;
+    transition: opacity 0.5s ease;
 }
 
 .kiss .text1:hover {
     opacity: 1; 
+    transition: opacity 0.5s ease;
 }
 
 /* Maruwu Seicha styles*/
@@ -286,6 +289,7 @@ p{
 .title2 article h3:hover{
     color:#558c2e;
     cursor: pointer;
+    transition: opacity 0.5s ease;
 }
 
 .maruwu {
@@ -309,11 +313,11 @@ p{
     top: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    transition: opacity 0.3s ease; 
 }
 
 .maruwu:hover .text2 {
     opacity: 1; 
+    transition: opacity 0.5s ease;
 }
 
 .maruwu a img {
@@ -327,10 +331,12 @@ p{
     background-color: white;
     opacity: 0.3;
     cursor: pointer;
+    transition: opacity 0.5s ease;
 }
 
 .maruwu .text2:hover {
     opacity: 1; 
+    transition: opacity 0.5s ease;
 }
 
 /* Stonemill styles*/
@@ -360,6 +366,7 @@ p{
 .title3 article h3:hover{
     color:#558c2e;
     cursor: pointer;
+    transition: opacity 0.5s ease;
 }
 
 .stonemill {
@@ -383,11 +390,11 @@ p{
     top: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    transition: opacity 0.3s ease; 
 }
 
 .stonemill:hover .text3 {
     opacity: 1; 
+    transition: opacity 0.5s ease;
 }
 
 .stonemill a img {
@@ -401,10 +408,12 @@ p{
     background-color: white;
     opacity: 0.3;
     cursor: pointer;
+    transition: opacity 0.5s ease;
 }
 
 .stonemill .text3:hover {
     opacity: 1; 
+    transition: opacity 0.5s ease;
 }
 
 /* Asha Tea House styles*/
@@ -434,6 +443,7 @@ p{
 .title4 article h3:hover{
     color:#558c2e;
     cursor: pointer;
+    transition: opacity 0.5s ease;
 }
 
 .asha {
@@ -457,11 +467,11 @@ p{
     top: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    transition: opacity 0.3s ease; 
 }
 
 .asha:hover .text4 {
     opacity: 1; 
+    transition: opacity 0.5s ease;
 }
 
 .asha a img {
@@ -475,10 +485,12 @@ p{
     background-color: white;
     opacity: 0.3;
     cursor: pointer;
+    transition: opacity 0.5s ease;
 }
 
 .asha .text4:hover {
     opacity: 1; 
+    transition: opacity 0.5s ease;
 }
 
 /* fifty/fifty styles*/
@@ -508,6 +520,7 @@ p{
 .title5 article h3:hover{
     color:#558c2e;
     cursor: pointer;
+    transition: opacity 0.5s ease;
 }
 
 .fifty {
@@ -531,11 +544,11 @@ p{
     top: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    transition: opacity 0.3s ease; 
 }
 
 .fifty:hover .text5 {
     opacity: 1; 
+    transition: opacity 0.5s ease;
 }
 
 .fifty a img {
@@ -549,10 +562,12 @@ p{
     background-color: white;
     opacity: 0.3;
     cursor: pointer;
+    transition: opacity 0.5s ease;
 }
 
 .fifty .text5:hover {
     opacity: 1; 
+    transition: opacity 0.5s ease;
 }
 
 /* Matcha Cafe Maiko styles*/
@@ -582,6 +597,7 @@ p{
 .title6 article h3:hover{
     color:#558c2e;
     cursor: pointer;
+    transition: opacity 0.5s ease;
 }
 
 .maiko {
@@ -604,12 +620,12 @@ p{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: opacity 0.3s ease; 
+    opacity: 0; 
 }
 
 .maiko:hover .text6 {
     opacity: 1; 
+    transition: opacity 0.5s ease;
 }
 
 .maiko a img {
@@ -623,10 +639,12 @@ p{
     background-color: white;
     opacity: 0.3;
     cursor: pointer;
+    transition: opacity 0.5s ease;
 }
 
 .maiko .text6:hover {
     opacity: 1; 
+    transition: opacity 0.5s ease;
 }
 
 a{
